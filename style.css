@@ -1,0 +1,68 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  background: white;
+  color: #111;
+}
+
+#battle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.song-btn {
+  width: 140px;
+  padding: 12px;
+  background-color: #cfe8ff; /* 연한 파랑 */
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+#vs {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#progress {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* 공통 버튼 스타일 */
+button {
+  background-color: #e0f2fe; /* 연한 파랑 */
+  color: #000000;           /* 검정 글씨 */
+  border: none;
+  padding: 16px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 14px;
+  min-width: 130px;
+}
+
+/* 왼쪽 버튼 (조금 더 파랑) */
+#left {
+  background-color: #bae6fd;
+}
+
+/* 오른쪽 버튼 (조금 다른 파랑) */
+#right {
+  background-color: #dbeafe;
+}
+
+/* 눌렀을 때 효과 */
+button:active {
+  transform: scale(0.97);
+}
+
+#progress {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #475569;
+}
